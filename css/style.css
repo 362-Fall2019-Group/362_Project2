@@ -14,3 +14,20 @@ html{
   padding-top: 25px;
   color:#9ACD32;
 }
+
+
+
+#p1{
+  padding-top: 25px;
+  color: #9ACD32;
+  font-size:1.5em;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+#p2{
+border-left: 15px solid #9ACD32;
+background-color: #d0dbb8;
+
+}
