@@ -114,3 +114,20 @@ text-align: center;
   border-left: 15px solid #9ACD32;
   background-color: #D0DBB8;
 }
+
+
+#p14{
+  padding-left: 25px;
+  padding-right: 25px;
+  text-align: left;
+  border-left: 15px solid #9ACD32;
+  background-color: #D0DBB8;
+}
+
+#p13{
+  padding-left: 25px;
+  padding-right: 25px;
+  text-align: left;
+  border-left: 15px solid #FFFF99;
+  background-color: #fafadc;
+}
