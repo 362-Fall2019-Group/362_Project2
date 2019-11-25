@@ -195,3 +195,39 @@ text-align: center;
   padding-bottom: 30px;
 
 }
+
+
+div.images {
+  border: 1px solid #ccc;
+}
+
+div.images:hover {
+  border: 1px solid #777;
+}
+
+div.images img {
+  width: 100%;
+  height: auto;
+  border-style:ridge;
+  border-color:#659dbd;
+  border-width:thick;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  border-style: ridge;
+  border-color: #9ACD32;
+  color:black;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+  padding-bottom: 35px;
+}
