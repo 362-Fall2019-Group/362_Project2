@@ -131,3 +131,54 @@ text-align: center;
   border-left: 15px solid #FFFF99;
   background-color: #fafadc;
 }
+
+.nav{
+  overflow:hidden;
+  background: #659dbd;
+}
+
+.nav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.nav a:hover {
+  background-color: #d4e09b;
+  color: black;
+}
+
+.nav a.active {
+  background-color: #FFFF99;
+  color: white;
+}
+
+.nav .login{
+  float:right;
+  padding-top: 8px;
+}
+
+.nav input[type=text]
+{
+  padding:6px;
+  padding-top: 6px;
+  font-size:17px;
+  border: none;
+  width: 150px;
+}
+.nav .login button{
+  float:right;
+  padding:6px;
+  margin-right: 16px;
+  background:#FFFF99;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.nav .login button:hover{
+  background:#FFFF99;
+}
