@@ -1,7 +1,6 @@
 body{
   margin:0;
-  font-family: Arial, Helvetica, sans-sherif;
-  font-family: 'Baskervville', serif;
+  font-family: 'Baskervville', serif, sans-serif;
 }
 
 html{
@@ -13,7 +12,7 @@ html{
   padding-bottom: 25px;
   padding-top: 25px;
   color:#9ACD32;
-  font-size: 1em;
+  font-size: 2em;
 }
 
 
@@ -157,32 +156,12 @@ text-align: center;
   color: white;
 }
 
-.nav .login{
-  float:right;
-  padding-top: 8px;
+.nav a.login{
+  position: relative;
+  right:200px;
 }
 
-.nav input[type=text]
-{
-  padding:6px;
-  padding-top: 6px;
-  font-size:17px;
-  border: none;
-  width: 150px;
-}
-.nav .login button{
-  float:right;
-  padding:6px;
-  margin-right: 16px;
-  background:#FFFF99;
-  font-size: 17px;
-  border: none;
-  cursor: pointer;
-}
 
-.nav .login button:hover{
-  background:#FFFF99;
-}
 
 
 
@@ -233,6 +212,12 @@ div.desc {
   padding-bottom: 35px;
 }
 
+
+.loginheader{
+    font-family: 'Baskervville', serif, sans-serif;
+    text-align: center;
+    font-size: 2em;
+}
 
 @media only screen and (max-width: 600px) {
   body {
