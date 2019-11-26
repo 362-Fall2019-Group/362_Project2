@@ -163,8 +163,6 @@ text-align: center;
 
 
 
-
-
 .intro{
   display: inline-block;
   text-align: center;
@@ -213,7 +211,7 @@ div.desc {
 }
 
 
-.loginheader{
+h3{
     font-family: 'Baskervville', serif, sans-serif;
     text-align: center;
     font-size: 2em;
