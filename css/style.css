@@ -1,3 +1,5 @@
+<!--color scheme codes: -->
+
 body{
   margin:0;
   font-family: 'Baskervville', serif, sans-serif;
@@ -9,8 +11,8 @@ html{
 
 #products{
   text-align: center;
-  padding-bottom: 25px;
-  padding-top: 25px;
+  padding-bottom: 1.5625em;
+  padding-top: ;
   color:#9ACD32;
   font-size: 2em;
 }
@@ -18,41 +20,41 @@ html{
 
 
 #p1{
-  padding-top: 25px;
+  padding-top: 1.5625em;
   color: #9ACD32;
   font-size:1.5em;
   font-weight: bold;
   text-align: center;
-  padding-bottom: 25px;
+  padding-bottom: 1.5625em;
 }
 
 #p2{
-border-left: 15px solid #9ACD32;
+border-left: 0.938em solid #9ACD32;
 background-color: #d0dbb8;
 
 }
 
 #p3{
-  padding-top: 900px;
+  padding-top: 56.25em;
   color: #659dbd;
   font-size:1em;
   font-weight: bold;
   text-align: center;
-  padding-top:30px;
+  padding-top:1.875em;
 
 }
 
 #p4{
-  padding-left: 25px;
-  padding-right: 25px;
+  padding-left: 1.5625em;
+  padding-right: 1.5625em;
   text-align: left;
-  border-left: 15px solid #659dbd;
+  border-left: 0.9375em solid #659dbd;
   background-color: #c3dbe8;
 }
 
 
 #p5{
-padding-top: 25px;
+padding-top: 1.5625em;
 color: #FFFF99;
 font-size:1em;
 font-weight: bold;
@@ -60,15 +62,15 @@ text-align: center;
 }
 
 #p6{
-  padding-left: 25px;
-  padding-right: 25px;
+  padding-left: 1.5625em;
+  padding-right: 1.5625em;
   text-align: center;
-  border-left: 15px solid #FFFF99;
+  border-left: 0.9375em solid #FFFF99;
   background-color: #fafadc;
 }
 
 #p7{
-padding-top: 25px;
+padding-top: 1.5625em;
 color: #FFFF99;
 font-size:1em;
 font-weight: bold;
@@ -76,15 +78,15 @@ text-align: center;
 }
 
 #p8{
-  padding-left: 25px;
-  padding-right: 25px;
+  padding-left: 1.5625em;
+  padding-right: 1.5625em;
   text-align: left;
-  border-left: 15px solid #FFFF99;
+  border-left: 0.9375em solid #FFFF99;
   background-color: #fafadc;
 }
 
 #p9{
-  padding-top: 25px;
+  padding-top: 1.5625em;
   color: #9ACD32;
   font-size:1em;
   font-weight: bold;
@@ -92,15 +94,15 @@ text-align: center;
 }
 
 #p10{
-  padding-left: 25px;
-  padding-right: 25px;
+  padding-left: 1.5625em;
+  padding-right: 1.5625em;
   text-align: left;
-  border-left: 15px solid #9ACD32;
+  border-left: 0.9375em solid #9ACD32;
   background-color: #D0DBB8;
 }
 
 #p11{
-  padding-top: 25px;
+  padding-top: 1.5625em;
   color: #9ACD32;
   font-size:1em;
   font-weight: bold;
@@ -108,27 +110,27 @@ text-align: center;
 }
 
 #p12{
-  padding-left: 25px;
-  padding-right: 25px;
+  padding-left: 1.5625em;
+  padding-right: 1.5625em;
   text-align: left;
-  border-left: 15px solid #9ACD32;
+  border-left: 0.9375em solid #9ACD32;
   background-color: #D0DBB8;
 }
 
 
 #p14{
-  padding-left: 25px;
-  padding-right: 25px;
+  padding-left: 1.5625em;
+  padding-right: 1.5625em;
   text-align: left;
-  border-left: 15px solid #9ACD32;
+  border-left: 0.9375em solid #9ACD32;
   background-color: #D0DBB8;
 }
 
 #p13{
-  padding-left: 25px;
-  padding-right: 25px;
+  padding-left: 1.5625em;
+  padding-right: 1.5625em;
   text-align: left;
-  border-left: 15px solid #FFFF99;
+  border-left: 0.9375em solid #FFFF99;
   background-color: #fafadc;
 }
 
@@ -141,9 +143,9 @@ text-align: center;
   float: left;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 0.875em 1em;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 1.0625em ;
 }
 
 .nav a:hover {
@@ -158,7 +160,7 @@ text-align: center;
 
 .nav a.login{
   position: relative;
-  right:200px;
+  right:12.5em;
 }
 
 
@@ -167,20 +169,20 @@ text-align: center;
   display: inline-block;
   text-align: center;
   text-size:2em;
-  padding-top: 75px;
-  padding-left: 25px;
-  padding-right: 25px;
-  padding-bottom: 30px;
+  padding-top: 4.6875em;
+  padding-left: 1.5625em;
+  padding-right: 1.5625em;
+  padding-bottom: 1.875em;
 
 }
 
 
 div.images {
-  border: 1px solid #ccc;
+  border: 0.0625em solid #ccc;
 }
 
 div.images:hover {
-  border: 1px solid #777;
+  border: 0.0625em solid #777;
 }
 
 div.images img {
@@ -192,7 +194,7 @@ div.images img {
 }
 
 div.desc {
-  padding: 15px;
+  padding: 0.9375em;
   text-align: center;
   border-style: ridge;
   border-color: #9ACD32;
@@ -204,10 +206,10 @@ div.desc {
 }
 
 .responsive {
-  padding: 0 6px;
+  padding: 0 0.375;
   float: left;
   width: 24.99999%;
-  padding-bottom: 35px;
+  padding-bottom: 2.1875em;
 }
 
 
@@ -215,8 +217,10 @@ h3{
     font-family: 'Baskervville', serif, sans-serif;
     text-align: center;
     font-size: 1.5em;
-    padding-bottom: 35px;
+    padding-bottom: 2.1875em;
+    padding-top:1.5625em;
 }
+
 
 @media only screen and (max-width: 600px) {
   body {
@@ -226,7 +230,7 @@ h3{
 
     .responsive{
       width:50%;
-      margin:6px 0;
+      margin:0.375em 0;
     }
 
     .p1{
