@@ -1,3 +1,22 @@
+  body {
+    background-color:white;
+    font-size: 0.75em;
+    }
+
+    .responsive{
+      width:50%;
+      margin:0.375em 0em;
+    }
+
+    .p1{
+      font-size:1.5em;
+    }
+
+.nav{
+font-size: 0.5em;
+}
+
+@media only screen and (min-width: 600px) {
 /*<!--color scheme codes: -->*/
 
 body{
@@ -273,29 +292,7 @@ h2 {
   color: #FFFFFF;
   }
 
-
-@media only screen and (max-width: 600px) {
-  body {
-    background-color:white;
-    font-size: 0.75em;
-    }
-
-    .responsive{
-      width:50%;
-      margin:0.375em 0em;
-    }
-
-    .p1{
-      font-size:1.5em;
-    }
-
-.nav{
-font-size: 0.5em;
 }
-
-  }
-
-
 
 @media only screen and (min-width: 800px) {
   body {
