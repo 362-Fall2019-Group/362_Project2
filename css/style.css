@@ -283,7 +283,7 @@ h2 {
 
     .responsive{
       width:50%;
-      margin:0.375em 0;
+      margin:0.375em 0em;
     }
 
     .p1{
@@ -293,8 +293,6 @@ h2 {
 .nav{
 font-size: 0.5em;
 }
-
-
 
   }
 
