@@ -28,3 +28,4 @@ function check(e) {
     alert("Thank you for joining with us!");
     return ture;
   }
+}
