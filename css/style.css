@@ -12,7 +12,6 @@ html{
 #products{
   text-align: center;
   padding-bottom: 1.5625em;
-  padding-top: ;
   color:#9ACD32;
   font-size: 2em;
 }
@@ -168,7 +167,7 @@ text-align: center;
 .intro{
   display: inline-block;
   text-align: center;
-  text-size:2em;
+  font-size:2em;
   padding-top: 4.6875em;
   padding-left: 1.5625em;
   padding-right: 1.5625em;
@@ -206,7 +205,7 @@ div.desc {
 }
 
 .responsive {
-  padding: 0 0.375;
+  padding: 0px 0.375;
   float: left;
   width: 24.99999%;
   padding-bottom: 2.1875em;
