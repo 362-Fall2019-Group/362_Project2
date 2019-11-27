@@ -188,7 +188,7 @@ text-align: center;
 .intro{
   display: inline-block;
   text-align: center;
-  text-size:2em;
+  font-size:2em;
   padding-top: 75px;
   padding-left: 25px;
   padding-right: 25px;
