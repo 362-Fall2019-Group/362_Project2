@@ -26,6 +26,6 @@ function check(e) {
   else
   {
     alert("Thank you for joining with us!");
-    return ture;
+    return true;
   }
 }
