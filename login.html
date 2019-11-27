@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en" class="hasjs">
 <head>
-  <title>signup</title>
+  <title>Login</title>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
   <link rel="stylesheet" media="screen" href="css/reset.css" />
   <link rel="stylesheet" media="screen" href="css/style.css" />
-  <link href="https://fonts.googleapis.com/css?family=Baskervville&display=swap" rel="stylesheet">
-  <script src="js/script.js" async> </script>
+  <link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+  <script src="script.js" async> </script>
 </head>
 <body>
   <nav class="nav">
@@ -15,9 +17,16 @@
       <li> <a class="active" href="index.html">Home</a> </li>
       <li> <a href="knots.html">Products</a> </li>
       <li> <a href="jewelry.html">Jewlery</a> </li>
+    <div class="login">
+      <form action="/action_page.php">
+        <input type="text" placeholder="your@email.com" name="email">
+        <input type="text" placeholder="password" name="password">
+        <button type="submit">Login</button>
+      </form>
+    </div>
   </nav>
   <div id="login">
-    <form method="POST" action="#" autocomplete="on" onsubmit="check()">
+    <form method="POST" action="#" autocomplete="on">
       <div id="sign">
       <h3>Sign up</h3>
       <div>
@@ -25,26 +34,34 @@
         First Name
         </label>
       </div>
+    <div id="i">
     <input type="first" id="first" placeholder="Enter your first name">
+    </div>
     <div>
       <label for="second">
-      Last Name
+      Secone Name
       </label>
     </div>
-      <input type="second" id="second" placeholder="Enter your last name">
+    <div id="i">
+      <input type="second" id="second" placeholder="Enter your second name">
+    </div>
     <div>
       <label for="email">
       E-mail
       </label>
     </div>
+    <div id="i">
       <input type="email" id="email" placeholder="Enter your email">
+    </div>
     <div>
      <label for="phone">
       Phone number
      </label>
     </div>
+    <div id="i">
       <input type="text" id="phone" size="15" placeholder="Enter your phone number">
-        <div><input type="button" value="Create Account" id="safe" onClick="check()"></div>
+        </div>
+        <div><input type="button" value="Create Account" id="safe" onClick="myAccount()"></div>
       </div>
     </form>
   </div>
