@@ -241,8 +241,6 @@ h3{
   -webkit-transition: 0.5s;
   transition: 0.5s;
   outline: none;
-  padding-top: 1%;
-  padding-bottom: 5px;
 }
 
 #i:focus {
