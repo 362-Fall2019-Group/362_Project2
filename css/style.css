@@ -225,9 +225,9 @@ h3{
  text-align: center;
  color: #FFFFFF;
  font-weight: bold;
- font-size: 1.25em;
+ font-size: 1em;
  font-family: 'Baskervville', serif, sans-serif;
- line-height: 1.6em;
+ line-height: 1.4em;
 }
 
 input {
@@ -235,7 +235,7 @@ input {
       padding-top:2%;
       margin: 0.625em;
       display: inline-block;
-      font-size: 1.3em;
+      font-size: 1.1em;
       border-radius: 0.625em;
       border: 3px solid #F5ECCE;
       -webkit-transition: 0.5s;
@@ -266,7 +266,7 @@ h2 {
   }
   
   #sign {
-  font-size: 1.2em;
+  font-size: 1em;
   padding-top:1%;
   padding-bottom:2%;
   text-align: center;
