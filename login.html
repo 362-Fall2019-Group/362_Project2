@@ -11,59 +11,59 @@
   <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
   <script src="script.js" async> </script>
 </head>
-
 <body>
-
-  <div class="nav">
-    <a class="active" href="index.html">Home</a>
-    <a href="knots.html">Products</a>
-    <a href="jewelry.html">Jewlery</a>
-    <a href="login.html">Login</a>
-  </div>
-
-<form method="POST" action="#" autocomplete="on">
-
-<div id="sign">
-
-  <h3 id="loginheader">Sign up</h3>
-   <div class="fname">
-    <label for="first">
-      First Name
-    </label>
-  </div>
-  <div class="fnameinput">
-    <input type="text" id="first" placeholder="Enter your first name">
-  </div>
-   <div class>
-    <label for="second">
-      Second Name
-    </label>
-  </div>
-  <div>
-    <input type="text" id="second" placeholder="Enter your second name">
-  </div>
-  <div>
-
-
-    <label for="email">
+  <nav class="nav">
+    <ul>
+      <li> <a class="active" href="index.html">Home</a> </li>
+      <li> <a href="knots.html">Products</a> </li>
+      <li> <a href="jewelry.html">Jewlery</a> </li>
+    <div class="login">
+      <form action="/action_page.php">
+        <input type="text" placeholder="your@email.com" name="email">
+        <input type="text" placeholder="password" name="password">
+        <button type="submit">Login</button>
+      </form>
+    </div>
+  </nav>
+  <div id="login">
+    <form method="POST" action="#" autocomplete="on">
+      <div id="sign">
+      <h3>Sign up</h3>
+      <div>
+        <label for="first">
+        First Name
+        </label>
+      </div>
+    <div id="i">
+    <input type="first" id="first" placeholder="Enter your first name">
+    </div>
+    <div>
+      <label for="second">
+      Secone Name
+      </label>
+    </div>
+    <div id="i">
+      <input type="second" id="second" placeholder="Enter your second name">
+    </div>
+    <div>
+      <label for="email">
       E-mail
-    </label>
+      </label>
+    </div>
+    <div id="i">
+      <input type="email" id="email" placeholder="Enter your email">
+    </div>
+    <div>
+     <label for="phone">
+      Phone number
+     </label>
+    </div>
+    <div id="i">
+      <input type="text" id="phone" size="15" placeholder="Enter your phone number">
+        </div>
+        <div><input type="button" value="Create Account" id="safe" onClick="myAccount()"></div>
+      </div>
+    </form>
   </div>
-  <div>
-    <input type="email" id="email" placeholder="Enter your email">
-  </div>
-  <div>
-
-
-   <label for="phone">
-    Phone number
-   </label>
-  </div>
-  <div>
-    <input type="text" id="phone" size="15" placeholder="Enter your phone number">
-  </div>
-  <div><input type="button" value="Create Account" id="safe" onClick="myAccount()"></div>
-</div>
-</form>
 </body>
 </html>
