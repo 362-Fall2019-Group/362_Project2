@@ -243,7 +243,7 @@ h3{
   outline: none;
 }
 
-#i:focus {
+#i: focus {
   border: 3px solid #FACC2E;
 }
 
