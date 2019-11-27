@@ -5,19 +5,19 @@ function check(e) {
     e.preventDefault();
     return false;
   }
-  else  if (second.value == "")
+  if (second.value == "")
   {
     alert("Enter your second name");
     e.preventDefault();
     return false;
   }
-  else  if (email.value == "")
+  if (email.value == "")
   {
     alert("Enter your email");
     e.preventDefault();
     return false;
   }
-  else  if (phone.value == "")
+  if (phone.value == "")
   {
     alert("Enter your phone number");
     e.preventDefault();
