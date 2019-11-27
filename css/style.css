@@ -238,13 +238,7 @@ h3{
   font-size: 18px;
   border-radius: 10px;
   border: 3px solid #F5ECCE;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
   outline: none;
-}
-
-#i: focus {
-  border: 3px solid #FACC2E;
 }
 
 #safe {
