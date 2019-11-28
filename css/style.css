@@ -1,7 +1,6 @@
 body{
   margin:0;
-  font-family: Arial, Helvetica, sans-sherif;
-  font-family: 'Baskervville', serif;
+  font-family: 'Baskervville', serif, sans-sherif;
 }
 
 html{
