@@ -286,6 +286,58 @@ h2 {
   color: #FFFFFF;
   }
 
+#login {
+ background-color: #F5DA81;
+ text-align: center;
+ color: #FFFFFF;
+ font-weight: bold;
+ font-size: 1em;
+ font-family: 'Baskervville', serif, sans-serif;
+ line-height: 1.4em;
+}
+
+input {
+      width: 60%;
+      padding-top:2%;
+      margin: 0.625em;
+      display: inline-block;
+      font-size: 1.1em;
+      border-radius: 0.625em;
+      border: 3px solid #F5ECCE;
+      -webkit-transition: 0.5s;
+      transition: 0.5s;
+      outline: none;
+  }
+
+  input:focus {
+    border: 3px solid #FACC2E;
+  }
+
+
+#safe {
+  background-color: white;
+  display: inline-block;
+  margin: 10px;
+  border: 2px solid #FACC2E; 
+  width: 50%;
+  padding: 0.625em;
+}
+
+h2 {
+  font-size: 1.3em;
+  padding-top:1%;
+  padding-bottom:2%;
+  text-align: center;
+  color: #FFFFFF;
+  }
+
+  #sign {
+  font-size: 1em;
+  padding-top:1%;
+  padding-bottom:2%;
+  text-align: center;
+  color: #FFFFFF;
+  }
 
 @media only screen and (max-width: 600px) {
   body {
